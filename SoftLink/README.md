@@ -1,4 +1,5 @@
 # Soft Link 
+Soft Link can also be called as Symbolic Link 
 Soft Links are similar to pointer
 File 2 will point File 1 
 If File 1 is deleted File 2 will have nothing to point so it will be useless 
