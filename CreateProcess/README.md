@@ -2,7 +2,7 @@
 Program and Process \ 
 A program in execution is called Process \
 One or more threads run in Context of Proces \
-Program consits of code. When the program is compiled it generates binary file or exe file.\
+Program consits of code. When the program is compiled it generates binary file or exe file. \
 When we run the  executable file it will be process \
 Process is a data structure which store an information about process and its memory \
 
