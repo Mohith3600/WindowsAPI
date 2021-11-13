@@ -11,7 +11,7 @@ Process can run in two different ways \
 Runs in Background , no user interaction is required \
 Background processes are also called as Demon process \
 They mainly interact with the system  \
-The main advantage of running a process in the Background is that you can run other commands you do not have to wait until the current process ends to start another \ 
+The main advantage of running a process in the Background is that you can run other commands you do not have to wait until the current process ends to start another 
 
 2.Foreground process \
 It requires user interaction \
