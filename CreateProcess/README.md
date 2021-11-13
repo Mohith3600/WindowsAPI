@@ -1,5 +1,5 @@
 # CreateProcess 
-Program and Process \ 
+Program and Process 
 A program in execution is called Process \
 One or more threads run in Context of Proces \
 Program consits of code. When the program is compiled it generates binary file or exe file. \
