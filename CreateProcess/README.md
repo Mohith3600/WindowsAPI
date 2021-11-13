@@ -26,15 +26,16 @@ Data - Used for global and static variable. Which initialize before the main pro
 Text - Made up of compiled program code and holds the Program activity using program counter \
 
 Process Characteristics 
-There are following Characteristics of Process:
-1.Process Identifier(PID) – A Unique Identifier for each process, it is       assigned by OS.
-2.Process State – what is the current state of process i.e. running, waiting       etc.
-3.Parent Process ID (PPID) .
-4.CPU Scheduling Information- Process Priority and next process scheduled      information.
-5.Memory Management Information.
-6.Account Information.
-7.CPU Register and Program Counter.
-8. I/O Status – Basically Contains the information about which device is   allocated to process, file table etc.
+There are following Characteristics of Process: \
+1.Process Identifier(PID) – A Unique Identifier for each process, it is  assigned by OS. \
+2.Process State – what is the current state of process i.e. running, waiting  etc. \
+3.Parent Process ID (PPID) . \
+4.CPU Scheduling Information- Process Priority and next process scheduled  information. \
+5.Memory Management Information. \
+6.Account Information. \
+7.CPU Register and Program Counter. \
+8. I/O Status – Basically Contains the information about which device is allocated to process, file table etc. \
 
 Process Control Block
-It is a data structure which hold the information about process. Including PID , PPID, Process State , Process Scheduling, Memory Management and all characteristics of process
+It is a data structure which hold the information about process. \
+Including PID , PPID, Process State , Process Scheduling, Memory Management and all characteristics of process
