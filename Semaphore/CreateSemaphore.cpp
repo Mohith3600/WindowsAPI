@@ -10,7 +10,7 @@ int main()
 		NULL,
 		1,
 		1,
-		L"MySemaphore"
+		L"MySemaphore" //Name of the Semaphore
 	);
 	if (NULL == hSem)
 	{
