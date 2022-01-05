@@ -1,0 +1,42 @@
+# Interlocked Variable 
+These variables are indivisible and modify the data or variable on a single clock tick.
+
+
+# Race Condition 
+When mulitple threads are trying to access the shared variable then it results turns to undefined behaviour and this situation is called Race condtion 
+
+
+# Sample program of Normal Variable 
+int z;
+int x=5;
+x++;
+z=x;
+z=6;
+
+Working 
+a.First tick, It loads the value from register x=5;
+b.Second tick, Read the value from the register x=6;
+c.If this variable consider as a shared variable then out of many threads, one of eh threads might change the variable wihle it reading or updating from register. 
+So normal varialbe doesn't allows in a concurrency because of execution time of variable and compiler do itself some optimization.
+
+
+
+# Volatile Variable 
+A Volatile Variable is a variable that is marked or cast with the keyword "volatile" so that it is established that the varialbe can be changed by some outisde factor, such as the Operating system or other software.
+A Volatile Variable is useful in multithreaded applications or in other situations where programmers must anticipate changes to the variable other than those that are in common within the code module.
+
+Volatile means compiler will not optimize the variable.
+
+# How does Volatile Variable Work?
+volatile int a =50;
+while(a==50)
+{
+	//condition TRUE; 
+}
+When compiler, compiles above code then it sees thath the volatile value of variable "a" is changing.
+It is fetching the value from memory again and again then compiler sets thsi value to while(a==50).
+Compiler dont' set this value to while(true).
+Code runs slwoer because compiler is fetching value from memory again and again.
+
+Interlocked variable perform the increment operation on single tick and compiler don't optimize this variable due to volatile and useful when multiple threads access this variable. 
+variable bits updates in atomic fashion not partially.
